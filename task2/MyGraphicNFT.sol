@@ -48,4 +48,10 @@ contract MyGraphicNFT is ERC721URIStorage, Ownable {
         return currentTokenId; // 返回铸造成功的tokenId（用于后续查询）
     }
 
+
+    // // 重写tokenURI函数（ERC721URIStorage已实现）
+    // function tokenURI(uint256 tokenId) public view override(ERC721URIStorage) returns (string memory) {
+    //     return super.tokenURI(tokenId);
+    // }
+
 }

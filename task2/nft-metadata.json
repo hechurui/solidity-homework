@@ -1,0 +1,15 @@
+{
+  "name": "First Graphic",
+  "description": "my first graphic NFT",
+  "image": "https://amethyst-secondary-squirrel-371.mypinata.cloud/ipfs/bafkreibot7a6lof2bmmgkhgdpozxtvx7p4nuyylegvgbezf4ifr5iyvqvu",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Color",
+      "value": "Blue"
+    }
+  ]
+}

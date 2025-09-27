@@ -22,3 +22,8 @@ nft-auction-platform/
  npm install @chainlink/contracts-ccip
 ```
 
+## 部署合约
+
+```bash
+ npx hardhat run scripts/deploy.js --network sepolia
+```

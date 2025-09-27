@@ -1,0 +1,13 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "@openzeppelin/contracts-upgradeable": "^5.4.0"
+  },
+  "devDependencies": {
+    "@chainlink/contracts-ccip": "^1.6.1",
+    "install": "^0.13.0"
+  }
+}

@@ -8,13 +8,8 @@ async function main() {
   console.log("NFT deployed to:", nft.address);
 
   // 部署Chainlink价格预言机
-  // 注意：需要根据不同测试网配置正确的价格feed地址
   const priceFeeds = {
-    // 以太坊主网的例子
-    // eth: "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
-    // usdc: "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576D4eE",
-    
-    // Sepolia测试网的例子
+    // Sepolia测试网
     eth: "0x694AA1769357215DE4FAC081bf1f309aDC325306",
     usdc: "0x1d734A1DE1d624374a10a53Ee6411040D6D3E6A"
   };

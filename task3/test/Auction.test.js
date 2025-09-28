@@ -50,7 +50,7 @@ describe("Auction", function () {
 
     // 创建拍卖
     const startTime = Math.floor(Date.now() / 1000) + 60; // 1分钟后开始
-    const endTime = startTime + 3600; // 持续1小时
+    const endTime = startTime + 1800; // 持续30分钟
     const startPrice = ethers.utils.parseEther("0.1"); // 0.1 ETH
 
     await auctionFactory.createAuction(
